@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <app-header></app-header>
+    <header></header>
     <hr>
     <div class="row">
-      <app-servers></app-servers>
-      <app-server-details></app-server-details>
+      <servers></servers>
+      <server-details></server-details>
     </div>
     <hr>
-    <app-footer></app-footer>
+    <footer></footer>
   </div>
 </template>
 
@@ -19,10 +19,10 @@ import ServerDetails from "./components/Server/ServerDetails.vue"
 
 export default {
   components: {
-    "app-header": Header,
-    "app-footer": Footer,
-    "app-servers": Servers,
-    "app-server-details": ServerDetails
+    Header,
+    Footer,
+    Servers,
+    ServerDetails
   }
 }
 </script>
